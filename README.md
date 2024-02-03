@@ -1,6 +1,6 @@
 # Fundamental Javascript
 
-Pada modul pengenalan fundamentals JavaScript ini, setelah memahami apa itu JavaScript dan sejarah singkat di baliknya, kita akan memulai perjalanan dengan menuliskan kode JavaScript pertama. Dalam proses pembelajaran ini, kita akan fokus untuk dapat menuliskan kode dan menampilkan hasilnya ke konsol. Tak hanya itu, modul ini juga akan memberikan pemahaman tentang penggunaan komentar pada kode, konsep variabel dalam JavaScript, berbagai jenis tipe data yang dapat digunakan, pengenalan operator dan cara menggunakannya, serta konsep penting dalam pemrograman seperti percabangan dan perulangan.
+Pada modul pengenalan Fundamentals JavaScript ini, saya memahami apa itu JavaScript dan sejarah singkat di baliknya, saya memulai perjalanan dengan menuliskan kode JavaScript pertama. Dalam proses pembelajaran ini, saya fokus untuk dapat menuliskan kode dan menampilkan hasilnya ke konsol. Tak hanya itu, modul ini juga akan memberikan pemahaman tentang penggunaan komentar pada kode, konsep variabel dalam JavaScript, berbagai jenis tipe data yang dapat digunakan, pengenalan operator dan cara menggunakannya, serta konsep penting dalam pemrograman seperti percabangan dan perulangan.
 
 ## Rangkuman Materi
 
