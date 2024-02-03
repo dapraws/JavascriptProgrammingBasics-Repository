@@ -1,14 +1,38 @@
 /**
- * TODO:
- * Buatlah variabel firstName, lastName, age, isMarried dengan ketentuan:
- *  - firstName: bertipe data string, dengan nilai "John".
- *  - lastName: bertipe data string, dengan nilai "Doe".
- *  - age: bertipe data number, dengan nilai 25.
- *  - isMarried: bertipe data boolean, dengan nilai true.
+ * TODO
+ * 1. Buatlah variabel dengan nama restaurant yang bertipe object dengan ketentuan berikut:
+ *    - Memiliki properti bernama "name"
+ *       - Bertipe data string
+ *       - Bernilai "Bakso Mang Dicoding".
+ *    - Memiliki properti bernama "city"
+ *       - Bertipe data string
+ *       - Bernilai "Bandung".
+ *    - Memiliki properti "favorite drink"
+ *       - Bertipe data string
+ *       - Bernilai "Es Teh".
+ *    - Memiliki properti "favorite food"
+ *       - Bertipe data string
+ *       - Bernilai "Bakso".
+ *    - Memiliki properti "isVegan"
+ *       - Bertipe data boolean
+ *       - Bernilai false.
+ *
+ * 2. Buatlah variabel bernama name.
+ *    Kemudian isi dengan nilai name dari properti object restaurant
+ * 3. Buatlah variabel bernama favoriteDrink.
+ *    Kemudian isi dengan nilai "favorite drink" dari properti object restaurant
  */
 
 // Tulis kode di bawah ini
-var firstName = "John";
-var lastName = "Doe";
-var age = 25;
-var isMarried = true;
+
+var restaurant = {
+  name: "Bakso Mang Dicoding",
+  city: "Bandung",
+  "favorite drink": "Es Teh",
+  "favorite food": "Bakso",
+  isVegan: false,
+};
+
+var name = restaurant.name;
+
+var favoriteDrink = restaurant["favorite drink"];

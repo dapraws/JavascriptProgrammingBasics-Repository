@@ -1,44 +1,17 @@
 /**
- * Buatlah logika if untuk mengevaluasi nilai score dengan ketentuan:
- *  1. Jika score bernilai 90 atau lebih
- *      - Isi variabel result dengan nilai: 'Selamat! Anda mendapatkan nilai A.'
- *  2. Jika score bernilai 80 hingga 89
- *      - Isi variabel result dengan nilai: 'Anda mendapatkan nilai B.'
- *  3. Jika score bernilai 70 hingga 79
- *      - Isi variabel result dengan nilai: 'Anda mendapatkan nilai C.'
- *  4. Jika score bernilai 60 hingga 69:
- *      - Isi variabel result dengan nilai: 'Anda mendapatkan nilai D.'
- *  5. Jika score bernilai di bawah 60:
- *      - Isi variabel result dengan nilai: 'Anda mendapatkan nilai E.'
+ * TODO:
+ * Buatlah sebuah variabel dengan nama evenNumber yang merupakan sebuah array dengan ketentuan:
+ *   - Array tersebut menampung bilangan genap dari 1 hingga 100
  *
- *
- *  Note: - Mohon untuk tidak menghapus kode yang sudah ada sebelumnya.
- *        - Anda tidak perlu membuat variabel result dan score secara manual.
- *          Gunakan variabel yang sudah disediakan.
- *
+ * Catatan:
+ *   - Agar lebih mudah, gunakanlah for loop dan logika if untuk mengisi bilangan genap pada array.
  */
 
-function scoreChecker(score) {
-  let result;
+// Tulis kode di bawah ini
+var evenNumber = [];
 
-  // TODO
-  if (score >= 90) {
-    result = "Selamat! Anda mendapatkan nilai A.";
-  } else if (score >= 80 && score <= 89) {
-    result = "Anda mendapatkan nilai B.";
-  } else if (score >= 70 && score <= 79) {
-    result = "Anda mendapatkan nilai C.";
-  } else if (score >= 60 && score <= 69) {
-    result = "Anda mendapatkan nilai D.";
-  } else {
-    result = "Anda mendapatkan nilai E.";
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 === 0) {
+    evenNumber.push(i);
   }
-
-  // Jangan hapus kode ini
-  return result;
 }
-
-/**
- * Jangan hapus kode di bawah ini
- */
-module.exports = scoreChecker;
