@@ -1,5 +1,12 @@
-function calculate(value) {
-  return value < 2 ? value : calculate(value - 1) + calculate(value - 2);
+class Car {}
+const car = new Car();
+console.log(typeof Car);
+
+function car({ brand, maxSpeed, wheelCount }) {
+  this.brand = brand;
+  this.maxSpeed = maxSpeed;
+  this.wheelCount = wheelCount;
 }
 
-console.log(calculate(3));
+const myCar = car({ brand: "Toyota", maxSpeed: 200, wheelCount: 4 });
+// car is not a constructor
