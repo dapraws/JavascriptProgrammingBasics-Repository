@@ -1,11 +1,29 @@
-# Functional Programming
+# Setup Environment
 
-Dalam modul ini, fokus pembelajaran akan diberikan pada paradigma Functional Programming (FP) yang menjadi pendekatan yang kuat dalam pengembangan perangkat lunak. Saya belajar konsep-konsep dasar FP seperti functions sebagai first-class citizens, higher-order functions, immutability, dan pure functions. Saya juga menjelajahi bagaimana mendefinisikan dan menggunakan reusable functions dalam JavaScript, yang memungkinkan kita untuk membuat kode yang lebih bersih, terorganisir, dan mudah dipelihara. Dengan memahami konsep FP dan cara menggunakan reusable functions, kita dapat meningkatkan efisiensi dan kualitas kode dalam pengembangan web.
+Pada modul ini Saya menyiapkan tools yang dibutuhkan untuk mengembangkan aplikasi JavaScript.
 
 ## Rangkuman Materi
 
-- Pure Function: Fungsi tanpa efek samping, output hanya bergantung pada inputnya.
-- Immutability: Data tidak berubah setelah dibuat, meningkatkan kejelasan kode.
-- Recursive: Teknik di mana sebuah fungsi memanggil dirinya sendiri.
-- Higher-Order Function: Fungsi yang dapat menerima atau mengembalikan fungsi.
-- JavaScript menyediakan fungsi bawaan seperti map(), filter(), reduce(), some(), find(), sort(), every(), forEach() yang mendukung pendekatan Functional Programming untuk manipulasi array dan objek.
+1. **Perbedaan runtime browser dan Node**:
+
+   - Browser runtime menjalankan JavaScript di lingkungan web, sementara Node.js runtime berjalan di luar browser, memungkinkan pengembangan server-side.
+   - Browser menyediakan objek DOM dan API browser, sedangkan Node.js memberikan akses ke API sistem operasi dan modul Node.js.
+
+2. **Instalasi text editor**:
+
+   - Pilih text editor seperti Visual Studio Code, Sublime Text, atau Atom.
+   - Unduh dan instal editor yang dipilih dari situs resminya.
+
+3. **Instalasi Node**:
+
+   - Unduh installer Node.js dari situs resminya.
+   - Ikuti langkah-langkah instalasi yang disediakan dalam installer.
+   - Verifikasi instalasi dengan menjalankan perintah `node -v` di terminal.
+
+4. **Membuat dan menjalankan project Node.js**:
+   - Buat folder proyek baru.
+   - Buka terminal di dalam folder tersebut.
+   - Jalankan perintah `npm init` untuk membuat file `package.json` yang berisi konfigurasi proyek.
+   - Buat file JavaScript sebagai file utama proyek.
+   - Tulis kode Node.js di dalam file tersebut.
+   - Jalankan proyek dengan perintah `node nama_file.js` di terminal.
