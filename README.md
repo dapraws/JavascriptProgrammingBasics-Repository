@@ -4,11 +4,9 @@ Dalam pemrograman, tidak seluruh proses dapat berjalan dengan sangat cepat. Ada 
 
 ## Rangkuman Materi
 
-# Rangkuman Asynchronous Process
-
 1.  Pengertian Asynchronous Programming
 
-Asynchronous programming adalah paradigma pemrograman di mana beberapa tugas dapat dieksekusi secara bersamaan tanpa harus menunggu tugas sebelumnya selesai.
+- Asynchronous programming adalah paradigma pemrograman di mana beberapa tugas dapat dieksekusi secara bersamaan tanpa harus menunggu tugas sebelumnya selesai.
 
 2. Keuntungan Asynchronous Programming
 
